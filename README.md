@@ -27,7 +27,7 @@ When repository has been cloned, the following files should be present:
 
 **Important!!!**
 
-Before running the the python code, you must first access the database by entering `psql news`into your terminal. This will ensure that all of the necessary views are present. Enter the following code into your terminal:
+Before running the the python code, you must first access the database by entering `psql news`into your terminal. To ensure that all of the necessary views are present. Enter the following code into your terminal:
 
 `CREATE OR REPLACE VIEW errors as 
 SELECT date(time),
