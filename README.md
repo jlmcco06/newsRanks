@@ -14,6 +14,7 @@ NewsRanks is a reporting tool which operates on the **news** database, and does 
 * psycopg2
 
 ## Instillation
+*Insitllation instructions assume you have access to the vagrant file containing the newsdata.sql file, which houses the news database*
 
 **Clone** the **NewsRanks** repository from `https://github.com/jlmcco06/newsRanks.git` using terminal or commandline.
 
@@ -26,6 +27,7 @@ When repository has been cloned, the following files should be present:
 ## Running Reports
 
 **Important!!!**
+
 
 Before running the the python code, you must first access the database by entering `psql news`into your terminal. To ensure that all of the necessary views are present. Enter the following code into your terminal:
 
