@@ -21,8 +21,6 @@ When repository has been cloned, the following files should be present:
 
 * **README.md** - You're reading this!
 
-* **newsdata.sql** - Data to populate the **news** database
-
 * **newsranks.py** - Reporting tool
 
 ## Running Reports
