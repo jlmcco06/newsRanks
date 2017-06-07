@@ -12,7 +12,7 @@ def top_three():
             10))) GROUP BY articles.title ORDER BY popularity DESC LIMIT 3")
     tops = c.fetchall()
     db.close()
-    print "Most popular articles:"
+    print "\nMost popular articles:\n"
     for article in tops:
         print str(article[0]) + " - " + str(article[1]) + " views"
 
@@ -28,7 +28,7 @@ def rank_authors():
         authors.name ORDER BY popularity DESC")
     ranks = c.fetchall()
     db.close()
-    print "Most popular authors:"
+    print "\nMost popular authors:\n"
     for author in ranks:
         print author[0] + " - " + str(author[1])
 
@@ -43,7 +43,7 @@ def fails_over_one_percent():
     (1.0*errors.failures/ requests.attempts) * 100 > 1.0")
     above1 = c.fetchall()
     db.close()
-    print "Days with more than 1% errors:"
+    print "\nDays with more than 1% errors:\n"
     for day in above1:
         print str(day[0]) + ", rate- " + str(round(day[1], 2)) + "%"
 
