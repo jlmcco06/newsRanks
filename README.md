@@ -10,7 +10,7 @@ NewsRanks is a reporting tool which operates on the **news** database, and does 
 
 ## Requirements
 
-* Python 2 or later
+* Python 2
 * psycopg2
 
 ## Instillation
